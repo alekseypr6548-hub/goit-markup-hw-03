@@ -1,0 +1,30 @@
+/* Стилі для всієї секції Hero */
+.hero-section {
+    background-color: #2E2F42;
+}
+
+/* Стилі для тексту заголовка */
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+/* Стилі для кнопки при наведенні мишкою та фокусі */
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}

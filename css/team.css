@@ -1,0 +1,37 @@
+/* 2. Контейнер всей секции (задает сиреневую смугу слева) */
+.team-section {
+    background-color: #f4f4fd;
+}
+
+/* 3. Заголовок «Our Team» */
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+/* 4. Карточка сотрудника (белая плашка) */
+.team-item {
+    background-color: #ffffff;
+}
+
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
