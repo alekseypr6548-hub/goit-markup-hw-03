@@ -1,18 +1,17 @@
 /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
-.container-footer {
+.footer-conteiner {
     padding: 0 15px;
-    width: 1158px;
-    height: 112px;
+    
     max-width: 1158px;
+    margin: 0 auto;
+        /* ДОДАНО: це відцентрує вміст футера на сторінці */
 }
 
 .footer {
     background: #2E2F42;
-
     /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
     padding: 100px 0;
-    width: 1440px;
-    height: 312px;
+    /* Висота тепер формується лише цим падінгом */
 }
 
 .footer-logo {
@@ -24,8 +23,8 @@
     text-transform: uppercase;
     color: #F4F4FD ;
 /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
-    width: 115px;
-    margin: 0 1028px 16px 15px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-web {
@@ -41,5 +40,4 @@
 
     /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
     width: 264px;
-    margin: 0 879px 0 15px;
 }

@@ -1,8 +1,6 @@
 /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
-.container-hero {
+.hero-section-container {
     padding: 0 15px;
-    width: 1158px;
-    height: 224px;
     max-width: 1158px;
 }
 
@@ -12,8 +10,6 @@
 
     /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
     padding: 188px 0;
-    width: 1440px;
-    height: 600px;
 }
 
 /* Стилі для тексту заголовка */
@@ -42,12 +38,11 @@
     cursor: pointer;
 
 /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
+    padding: 16px 32px;
+
     display: block;
      /* Робить кнопку блоком, щоб спрацювало центрування */
-    width: 169px;
-    /*  ширина з макету WebStudio */
-    height: 56px;
-    /* Висота кнопки з макету */
+   
     border: none;
     /* Прибирає стандартну чорну рамку браузера */
     border-radius: 4px;
