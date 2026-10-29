@@ -1,8 +1,18 @@
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-conteiner {
-    padding: 0 15px;
-    width: 1158px;
-    height: 72px;
-    max-width: 1158px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.contacts-list {
+display: flex;
 }
 
 .logo {
@@ -13,8 +23,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
-
-    
+    margin-right: 76px;
 }
 
 .logo-web {
@@ -22,7 +31,6 @@
 
 /* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
     width: 115px;
-    margin: 24px 1028 24px 15px;
 }
 
 .nav-link {
@@ -44,6 +52,7 @@
 .contacts-link:focus {
     color: #404BBF;
 }
-address {
+.header-contacts {
     font-style: normal;
+    margin-left: auto;
 }
