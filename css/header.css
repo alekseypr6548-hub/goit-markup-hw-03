@@ -1,3 +1,10 @@
+.container-header {
+    padding: 0 15px;
+    width: 1158px;
+    height: 72px;
+    max-width: 1158px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -6,10 +13,16 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+
+    
 }
 
 .logo-web {
     color: #4D5AE5;
+
+/* --- ДОДАЙТЕ ЦІ РЯДКИ СЮДИ --- */
+    width: 115px;
+    margin: 24px 1028 24px 15px;
 }
 
 .nav-link {
